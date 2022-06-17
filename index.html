@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- for SEO  -->
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>JQuery</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- append() -->
+      <h2 class="text-center mt-4">Adding Elements Using .append()</h2>
+      <ul class="list-group mt-5"></ul>
+      <!-- after() -->
+      <h2 class="text-center mt-4">
+        Adding Elements After A Element With .after()
+      </h2>
+      <p class="after mt-4">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente,
+        quos.
+      </p>
+      <!-- addClass() -->
+      <h2 class="text-center mt-4">
+        Adding Classes To Elements With .addClass()
+      </h2>
+      <button class="btn btn-dark c_btn">Change me</button>
+      <!-- animate()  -->
+      <h2 class="text-center mt-4">Animating Elements Using .animate()</h2>
+      <div class="animate mt-4">
+        <button class="left btn btn-dark">Left</button>
+        <button class="right btn btn-dark">Right</button>
+        <div class="square mt-4"></div>
+      </div>
+      <!-- appendTo() -->
+      <h2 class="text-center mt-4">
+        Adding Elements Inside Another Element Using .appendTo()
+      </h2>
+      <p class="element mt-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+      <!-- attr() -->
+      <h2 class="text-center mt-4">
+        Getting Attribute Of Elements Using .attr()
+      </h2>
+      <p class="attr mt-4">
+        Once there was a <em title="huge, gigantic">large</em> dinosaur...
+      </p>
+      <div class="show_attr"></div>
+      <!-- before() -->
+      <h2 class="text-center mt-4">
+        Adding Elements Before An Element Using .before()
+      </h2>
+      <p class="before">is what I said</p>
+      <!-- blur() -->
+      <h2 class="text-center mt-4">Adding Event Handler With .blur()</h2>
+      <form class="form-group mt-4">
+        <input
+          class="form-control w-50 m-auto"
+          id="target"
+          type="text"
+          placeholder="First Name"
+        />
+        <input
+          class="form-control w-50 m-auto mt-3"
+          id="target2"
+          type="text"
+          placeholder="Last Name"
+        />
+      </form>
+      <!-- children() -->
+      <h2 class="text-center mt-4">Selecting Children With .children()</h2>
+      <p class="children mt-4">
+        Lorem ipsum <span>I am the children</span> sit amet.
+      </p>
+      <!-- click() -->
+      <h2 class="text-center mt-4">Adding Event Handler With .click()</h2>
+      <button class="click btn btn-warning mt-4">Click Me</button>
+      <p class="show_output"></p>
+      <!-- clone() -->
+      <h2 class="text-center mt-4">Cloning Element With .clone()</h2>
+      <p class="original mb-0">Lorem ipsum dolor sit amet.</p>
+      <p class="show_clone"></p>
+      <!-- contextmenu()  -->
+      <h2 class="text-center mt-4">Handling Event With .contextmenu()</h2>
+      <div
+        class="square2 mt-4 d-flex align-items-center justify-content-center"
+      >
+        Right Click
+      </div>
+      <!-- css() -->
+      <h2 class="text-center mt-4">Changing CSS With .css()</h2>
+      <p class="css mt-4">Lorem ipsum dolor sit amet.</p>
+      <div class="button btn btn-success c_css">Change CSS</div>
+      <!-- dblclick() -->
+      <h2 class="text-center mt-4">Handling Event With .dblclick()</h2>
+      <button class="btn btn-dark dblclick mt-4">Double Click</button>
+      <!-- delay() -->
+      <h2 class="text-center mt-4">Handling Delay With .delay()</h2>
+      <div class="square3"></div>
+      <button class="btn btn-secondary btn_delay mt-4">Click and Wait</button>
+      <!-- each() -->
+      <h2 class="text-center mt-4">
+        Iterating Over JQuery Object With .each()
+      </h2>
+      <ul class="list">
+        <li>foo</li>
+        <li>bar</li>
+      </ul>
+      <!-- empty() -->
+      <h2 class="text-center mt-4">Removing All Child Nodes With .each()</h2>
+      <p class="delete_me">Lorem ipsum dolor sit.</p>
+      <button class="btn btn-primary del_btn">Delete</button>
+      <!-- e.pageX e.pageY  -->
+      <h2 class="text-center mt-4">
+        Finding The Position Of The Cursor With .pageX and .pageY
+      </h2>
+      <div
+        class="canvas w-100 p-3 d-flex align-items-center justify-content-center mt-4"
+      >
+        Enter the mouse
+      </div>
+      <!-- e.pageX e.pageY  -->
+      <h2 class="text-center mt-4">Changing color With mousemove</h2>
+      <div
+        class="canvas2 mt-4 w-100 p-3 d-flex align-items-center justify-content-center mt-4"
+      >
+        Enter the mouse
+      </div>
+      <!-- evet.type -->
+      <h2 class="text-center mt-4">Tracking Event Type With event.type</h2>
+      <button class="btn-success btn event mt-4">Click</button>
+      <p class="event_type"></p>
+      <!-- fade out  -->
+      <h2 class="text-center mt-4">Fade Out Effect</h2>
+      <div class="square4 d-flex align-items-center justify-content-center">
+        Hello
+      </div>
+      <button class="btn btn-primary btn-fadeout mt-4">Fade Out</button>
+      <!-- find  -->
+      <h2 class="text-center mt-4">Finding Elements With .find()</h2>
+      <p class="find">Lorem <span>ipsum</span> dolor <span>sit</span> amet.</p>
+      <!-- first  -->
+      <h2 class="text-center mt-4">Selecting First Element With .first()</h2>
+      <ul class="lists mt-4">
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+      </ul>
+      <!-- last  -->
+      <h2 class="text-center mt-4">Selecting Last Element With .last()</h2>
+      <ul class="lists2 mt-4">
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+      </ul>
+      <!-- focus  -->
+      <h2 class="text-center mt-4">Handling Event With .focus()</h2>
+      <input type="text" class="focus" placeholder="Name" />
+      <p class="input">focus fire</p>
+      <!-- height  -->
+      <h2 class="text-center mt-4">
+        Getting The Height Of An Element With .height()
+      </h2>
+      <p class="height mt-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+        quisquam!
+      </p>
+      <div class="h_output mb-4"></div>
+      <button class="btn btn-primary h_btn">Height Of Paragraph</button>
+      <!-- hide  -->
+      <h2 class="text-center mt-4">Hiding Elements With .hide()</h2>
+      <p class="hide">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      </p>
+      <button class="btn btn-primary hide_btn">Hide Paragraph</button>
+      <!-- hover  -->
+      <h2 class="text-center mt-4">Hover Effects With .hover()</h2>
+      <ul class="groups">
+        <li>Milk</li>
+        <li>Bread</li>
+        <li>Chips</li>
+        <li>Socks</li>
+      </ul>
+      <!-- innerHeight  -->
+      <h2 class="text-center mt-4">
+        Getting The Inner Height Of An Element With .innerHeight()
+      </h2>
+      <p class="innerHeight mt-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+        quisquam!
+      </p>
+      <div class="innerHeight_output mb-4"></div>
+      <!-- innerWidth  -->
+      <h2 class="text-center mt-4">
+        Getting The Inner Height Of An Element With .innerWidth()
+      </h2>
+      <p class="innerWidth mt-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+        quisquam!
+      </p>
+      <div class="innerWidth_output mb-4"></div>
+      <!-- insert after  -->
+      <h2 class="text-center mt-4">
+        Inserting Element After An Element With .insertAfter()
+      </h2>
+      <p id="insertAfter">I am inserted after h4</p>
+      <h4 id="element">Lorem, ipsum.</h4>
+      <!-- insert before  -->
+      <h2 class="text-center mt-4">
+        Inserting Element Before An Element With .insertBefore()
+      </h2>
+      <p id="insertBefore">Lorem ipsum dolor sit.</p>
+      <h4 id="insertedElement">I am inserted</h4>
+      <!-- is  -->
+      <h2 class="text-center mt-4">Checking The Exact Element With .is()</h2>
+      <ul id="browsers">
+        <li>Chrome</li>
+        <li>Safari</li>
+        <li>Firefox</li>
+        <li>Opera</li>
+      </ul>
+      <!-- extend  -->
+      <h2 class="text-center mt-4">Merging Objects With $.extend()</h2>
+      <p id="log"></p>
+      <!-- keydown -->
+      <h2 class="text-center mt-4">Keydown event With .keydown()</h2>
+      <input type="text" placeholder="type something" class="keydown" />
+      <p class="k_output"></p>
+      <!-- next  -->
+      <h2 class="text-center mt-4">Selecting Next Sibling with .next()</h2>
+      <ul>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li class="third-item">list item 3</li>
+        <li>I am selected with .next()</li>
+        <li>list item 5</li>
+      </ul>
+      <!-- next all  -->
+      <h2 class="text-center mt-4">
+        Selecting Next all Sibling with .nextAll()
+      </h2>
+      <ul>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li class="next-all">list item 3</li>
+        <li>left items</li>
+        <li>left items</li>
+      </ul>
+      <!-- not  -->
+      <h2 class="text-center mt-4">not()</h2>
+      <div class="squares mt-4">
+        <div class="row justify-content-between">
+          <div class="square5 orange div"></div>
+          <div class="square6 div"></div>
+          <div class="square7 plum div"></div>
+          <div class="square8 div"></div>
+        </div>
+      </div>
+      <!-- odd  -->
+      <h2 class="text-center mt-4">odd()</h2>
+      <ul class="odd">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+      </ul>
+      <!-- parent  -->
+      <h2 class="text-center mt-4">parent()</h2>
+      <div class="parent mt-4">
+        <h4>Hello</h4>
+        <p class="child">Just kidding</p>
+      </div>
+      <!-- prev  -->
+      <h2 class="text-center mt-4">Selecting Prev Sibling with .prev()</h2>
+      <ul>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li class="prev">list item 3</li>
+        <li>list item 4</li>
+        <li>list item 5</li>
+      </ul>
+      <!-- prev all -->
+      <h2 class="text-center mt-4">Selecting Prev Sibling with .prevAll()</h2>
+      <ul>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li class="prevall">list item 3</li>
+        <li>list item 4</li>
+        <li>list item 5</li>
+      </ul>
+      <!-- remove  -->
+      <h2 class="text-center mt-4">remove()</h2>
+      <p class="remove">Lorem ipsum dolor sit amet.</p>
+      <button class="btn btn-primary r_btn">Remove Paragraph</button>
+      <!-- remove class -->
+      <h2 class="text-center mt-4">removeClass()</h2>
+      <p class="removeclass bg-danger">Lorem ipsum dolor sit amet.</p>
+      <button class="btn btn-primary rclass_btn">Remove Class</button>
+      <!-- replace all  -->
+      <h2 class="text-center mt-4">replaceAll()</h2>
+      <p class="rall">replace me</p>
+      <p class="rall">replace me</p>
+      <p class="rall">replace me</p>
+      <button class="btn btn-success rall_btn">Replace All</button>
+      <!-- select  -->
+      <h2 class="text-center mt-4">select()</h2>
+      <input type="text" class="select" value="select me" />
+      <div class="showValue mb-5"></div>
+      <!-- show  -->
+      <h2 class="text-center mt-4">show()</h2>
+      <p class="show" style="display: none">Hello</p>
+      <button class="btn btn-warning show_btn">Show</button>
+      <!-- slide up -->
+      <h2 class="text-center mt-4">slideUp()</h2>
+      <p class="slideUp">Hello there!</p>
+      <button class="btn btn-dark slideUpBtn">Slide Up</button>
+      <!-- text  -->
+      <h2 class="text-center mt-4">text()</h2>
+      <button class="btn btn-dark textBtn">Add Text</button>
+      <p class="text"></p>
+      <!-- toggle  -->
+      <h2 class="text-center mt-4">toggle()</h2>
+      <button class="btn btn-dark t_btn">Toggle</button>
+      <p class="p">Hello</p>
+      <p class="p" style="display: none">Good Bye</p>
+    </div>
+
+    <!-- js links  -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

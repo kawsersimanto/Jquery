@@ -1,0 +1,53 @@
+.square, .square2, .square3, .square4, .square5, .square6, .square7, .square8{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin-left: 10px;
+}
+
+.c_btn_red{
+  background-color: red;
+}
+
+.square2{
+  background-color: green;
+}
+
+.square2.contextmenu{
+  background-color: yellow;
+}
+
+.square3{
+  background-color: aqua;
+  display: none;
+}
+
+.canvas, .canvas2{
+  height: 200px;
+  background-color: #c4c4c4;
+}
+
+.canvas2{
+  background-color: #f4f4f4;
+}
+
+.square4{
+  background-color: aqua;
+}
+
+.square5{
+  background-color: orange;
+}
+.square6{
+  background-color: purple;
+}
+.square7{
+  background-color: plum;
+}
+.square8{
+  background-color: mediumpurple;
+}
+
+.input{
+  display: none;
+}
